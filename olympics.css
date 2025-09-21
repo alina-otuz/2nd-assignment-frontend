@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F4F4F9;
+    color: #333;
+}
+
+.header-section {
+    background-color: #6C7A89;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-section h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-section nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.header-section nav a:hover {
+    color: #56C0C1;
+}
+
+.main-image {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about, .contact {
+    padding: 25px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #A3B5C6;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about h2, .contact h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.about p, .contact p {
+    font-size: 1.1em;
+}
+
+.about ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-left: 0;
+}
+
+.about ul li {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    background-color: #B8C4C9;
+}
+
+.contact input[type="text"], .contact input[type="email"] {
+    width: 60%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #56C0C1;
+    border-radius: 5px;
+    background-color: #F4F4F9;
+    color: #333;
+}
+
+.contact input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #56C0C1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #3FA8A9;
+}
+
+footer {
+    background-color: #6C7A89;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
