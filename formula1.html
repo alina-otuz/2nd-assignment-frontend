@@ -5,82 +5,160 @@
   <link rel="stylesheet" href="formula1_styles.css">
 </head>
 <body>
-  <header class="nav">
-    <nav>
-      <a href="index.html">Main page</a>
-    <a href="cybersport.html">Cybersport</a>
-    <a href="olympics.html">Olympics</a>
-  </ul>
-    </nav>
-  </header>
+  <div class="page-grid">
+    <header class="nav">
+      <div class="logo">
+    <img src="logo.png" alt="Site Logo">
+  </div>
+      <nav>
+        <a href="index.html">Main page</a>
+        <a href="cybersport.html">Cybersport</a>
+        <a href="olympics.html">Olympics</a>
+      </nav>
+    </header>
 
-  <main class="container">
-    <section class="hero" id="about">
-      <h1>Formula 1 — Speed & Strategy</h1>
-      <p>F1 is the top class of international single-seater auto racing. Quick facts below.</p>
-    </section>
+    <aside class="sidebar">
+      <h3>Quick Navigation</h3>
+      <ul>
+        <li><a href="#about">About F1</a></li>
+        <li><a href="#drivers">Top Drivers</a></li>
+        <li><a href="#calendar">Race Calendar</a></li>
+        <li><a href="#gallery">Photo Gallery</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
 
-    <section class="cards">
-      <article class="card" id="drivers">
-        <h2>Top Drivers</h2>
-        <ul>
-          <li>Max Verstappen</li>
-          <li>Lewis Hamilton</li>
-          <li>Charles Leclerc</li>
-        </ul>
-      </article>
+      <div class="quick-stats">
+        <h4>Total F1 Wins record</h4>
+        <p>Lewis Hamilton is the most decorated F1 driver with 105 race wins</p>
+      </div>
 
-      <article class="card" id="calendar">
-        <h2>Calendar</h2>
-        <ol>
-          <li>Oct 3 - 5: Singapore Airlines Singapore GP</li>
-          <li>Oct 17 - 20: MSC Cruises United States GP</li>
-          <li>Oct 24 - 27:	Mexico City GP</li>
-        </ol>
-      </article>
-    </section>
-    <div class="img-container">
-<img src ="https://cdn.motorsport.com/images/mgl/6zQ179lY/s1000/max-verstappen-red-bull-racing-1.jpg">
-    </div>
-<h2>Do you wanna get email notifications about start of Formula 1 races?</h2>
-<p>Complete form below and we're gonna notify you!</p>
+      <div class="quick-stats">
+        <h4>Most Consecutive Championships</h4>
+        <p>	Michael Schumacher won 5 seasons back-to-back, starting in 2000</p>
+        <small style="color: var(--muted); font-size: 12px;">Oct 3-5, 2024</small>
+      </div>
 
-<form>
-  <label>
-    Name:<br>
-    <input type="text" name="name">
-  </label>
-  <br><br>
+      <div class="quick-stats">
+        <h4>Fastest speed</h4>
+        <p>The fastest speed ever recorded in a Formula 1 race is a mind-blowing 231.5 miles per hour by Montoya who was driving for McLaren-Mercedes.</p>
+      </div>
+    </aside>
 
-  <label>
-    E-mail:<br>
-    <input type="email" name="email">
-  </label>
-  <br><br>
+    
+    <main class="container">
+      <section class="hero" id="about">
+        <h1>Formula 1 – Speed & Strategy</h1>
+        <p>F1 is the top class of international single-seater auto racing. Quick facts below.</p> <br>
+        <p1>Formula 1, better knows as F1, is the pinnacle of motorsport. It’s the highest class of international open-wheel single-seater Formula auto racing. These words may seem complicated, but they’re actually pretty simple. F1 is the highest level of racing with a single-seater car and the wheels outside the body of the car. The image above is of an F1 car, and it shows clearly that an F1 car has only one seat, and the wheels of the car are outside the main body of the car. Since F1 is the highest level of Formula auto racing it’s called Formula 1; it’s the highest level of motorsport. Junior levels of motorsport are things like Formula 2 and Formula 3, which are feeder series to F1.
 
-  <label>
-    Favorite team:<br>
-    <select name="team">
-      <option>Red Bull Racing</option>
-      <option>Mercedes</option>
-      <option>Ferrari</option>
-      <option>McLaren</option>
-      <option>Alpine</option>
-      <option>Aston Martin</option>
-      <option>Williams</option>
-      <option>Haas</option>
-      <option>AlphaTauri</option>
-    </select>
-  </label>
-  <br><br>
+F1 is also the highest level of motorsport sanctioned by the FIA. The Fédération Internationale de l’Automobile, more commonly known as the FIA, is an association representing the interests of motor organizations and motor car users. However, more people know the FIA for sanctioning and being the governing body for racing events. The FIA make and enforce the rules and regulations of certain motorsports, including Formula 1. The word Formula in the name of the sport refers to the set of rules to which all participants’ cars must comply with.</p1>
+      </section>
 
-  <input type="submit" value="Subscribe">
-</form>
-  </main>
+      <section class="cards">
+        <article class="card" id="drivers">
+          <h2>Top Drivers</h2>
+          <ul>
+            <li>Max Verstappen</li>
+            <li>Lewis Hamilton</li>
+            <li>Charles Leclerc</li>
+          </ul>
+        </article>
 
+        <article class="card" id="calendar">
+          <h2>Calendar</h2>
+          <ol>
+            <li>Oct 3 - 5: Singapore Airlines Singapore GP</li>
+            <li>Oct 17 - 20: MSC Cruises United States GP</li>
+            <li>Oct 24 - 27: Mexico City GP</li>
+          </ol>
+        </article>
+      </section>
+
+      <section id="gallery">
+        <h2 style="margin-top: 40px;">Historic F1 Moments</h2>
+        <div class="gallery">
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qkOryCKht6pKZv6TDxx62w.jpeg" class="gallery-img" alt="Sebastian Vettel India 2013">
+            <div class="img-overlay">Sebastian Vettel – India 2013</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*jgHj_L-LwD84JPrUOHRk9g.jpeg" class="gallery-img" alt="Charles Leclerc Monza 2019">
+            <div class="img-overlay">Charles Leclerc – Monza 2019</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*r1Ck7lrdAPThMkCBbodSzA.jpeg" class="gallery-img" alt="Michael Schumacher Hockenheim 1995">
+            <div class="img-overlay">Michael Schumacher – Hockenheim 1995</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ZVloaz9l_HC76op5BP1IcA.jpeg" class="gallery-img" alt="Max Verstappen Azerbaijan 2021">
+            <div class="img-overlay">Max Verstappen – Azerbaijan 2021</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*XgtXlScmICNAI1WZfK1nzg.jpeg" class="gallery-img" alt="Nigel Mansell & Ayrton Senna Spain 1991">
+            <div class="img-overlay">Nigel Mansell & Ayrton Senna – Spain 1991</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*fic9aPDEjOr0sg9OyAkrtQ.jpeg" class="gallery-img" alt="Nigel Mansell Dallas 1984">
+            <div class="img-overlay">Nigel Mansell – Dallas 1984</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*WCNoMmckzs6ksQk4z4wH8g.jpeg" class="gallery-img" alt="Jim Clark Silverstone 1967">
+            <div class="img-overlay">Jim Clark – Silverstone 1967</div>
+          </div>
+          <div class="img-container">
+            <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ni88Iv2Lfc2U_qZC10W7Uw.jpeg" class="gallery-img" alt="Stefan Johansson Monaco 1985">
+            <div class="img-overlay">Stefan Johansson – Monaco 1985</div>
+          </div>
+          <div class="img-container">
+            <img src="https://www.hola.com/us/horizon/original_aspect_ratio/b12fd8fcb3ed-gettyimages-88812049.jpg?im=Resize=(960),type=downsize" class="gallery-img" alt="Giuseppe Farina Silverstone 1950">
+            <div class="img-overlay">Giuseppe Farina – Silverstone 1950</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <h2>Do you wanna get email notifications about start of Formula 1 races?</h2>
+        <p>Complete form below and we're gonna notify you!</p>
+
+        <form>
+          <label>
+            Name:<br>
+            <input type="text" name="name" required>
+          </label>
+          <br><br>
+
+          <label>
+            E-mail:<br>
+            <input type="email" name="email" required>
+          </label>
+          <br><br>
+
+          <label>
+            Favorite team:<br>
+            <select name="team">
+              <option>Red Bull Racing</option>
+              <option>Mercedes</option>
+              <option>Ferrari</option>
+              <option>McLaren</option>
+              <option>Alpine</option>
+              <option>Aston Martin</option>
+              <option>Williams</option>
+              <option>Haas</option>
+              <option>AlphaTauri</option>
+            </select>
+          </label>
+          <br><br>
+
+          <input type="submit" value="Subscribe">
+        </form>
+      </section>
+    </main>
+
+    
+    <footer class="footer">
+      <h3>Alina Otuzbayeva (257034)</h3>
+      <h3>Zhanel Shunshalinova (242457)</h3>
+    </footer>
+  </div>
 </body>
-<footer class ="footer">
-    <h3>Alina Otuzbayeva (257034)</h3>
-    <h3>Zhanel Shunshalinova (242457)</h3>
-</footer>
 </html>
